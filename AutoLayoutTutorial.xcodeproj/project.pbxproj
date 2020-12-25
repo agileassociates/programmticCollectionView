@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F43C1C70258C8F8000130EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C1C6F258C8F8000130EC2 /* AppDelegate.swift */; };
-		F43C1C72258C8F8000130EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C1C71258C8F8000130EC2 /* ViewController.swift */; };
+		F43C1C72258C8F8000130EC2 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C1C71258C8F8000130EC2 /* ProfileController.swift */; };
 		F43C1C75258C8F8000130EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43C1C73258C8F8000130EC2 /* Main.storyboard */; };
 		F43C1C77258C8F8600130EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43C1C76258C8F8600130EC2 /* Assets.xcassets */; };
 		F43C1C7A258C8F8600130EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43C1C78258C8F8600130EC2 /* LaunchScreen.storyboard */; };
+		F43C1C82258CF4B700130EC2 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C1C81258CF4B700130EC2 /* ProfileHeader.swift */; };
+		F457B99825963707007C134F /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457B99725963707007C134F /* ProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F43C1C6C258C8F8000130EC2 /* AutoLayoutTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43C1C6F258C8F8000130EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F43C1C71258C8F8000130EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F43C1C71258C8F8000130EC2 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		F43C1C74258C8F8000130EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F43C1C76258C8F8600130EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43C1C79258C8F8600130EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F43C1C7B258C8F8600130EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43C1C81258CF4B700130EC2 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		F457B99725963707007C134F /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				F43C1C6F258C8F8000130EC2 /* AppDelegate.swift */,
-				F43C1C71258C8F8000130EC2 /* ViewController.swift */,
+				F43C1C81258CF4B700130EC2 /* ProfileHeader.swift */,
+				F457B99725963707007C134F /* ProfileCell.swift */,
+				F43C1C71258C8F8000130EC2 /* ProfileController.swift */,
 				F43C1C73258C8F8000130EC2 /* Main.storyboard */,
 				F43C1C76258C8F8600130EC2 /* Assets.xcassets */,
 				F43C1C78258C8F8600130EC2 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43C1C72258C8F8000130EC2 /* ViewController.swift in Sources */,
+				F43C1C72258C8F8000130EC2 /* ProfileController.swift in Sources */,
+				F457B99825963707007C134F /* ProfileCell.swift in Sources */,
 				F43C1C70258C8F8000130EC2 /* AppDelegate.swift in Sources */,
+				F43C1C82258CF4B700130EC2 /* ProfileHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
